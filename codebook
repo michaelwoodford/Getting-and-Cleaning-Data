@@ -1,2 +1,25 @@
 The codebook describing the variables within the initial data set can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The variables that were extracted from this dataset (ie those indicating a mean or standard deviation) can be found within the list below - note that each variable would therefore contain 2 columns, one indicating the mean and the other indicating the standard deviation:
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+More detail desribing the variables can be found within the original documentation.
+
+Please note that each feature has been normalized so that it is bound within the range of [-1 1].
